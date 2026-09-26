@@ -1,0 +1,9 @@
+# Nmap 7.98 scan initiated Sat Sep 26 11:02:43 2026 as: /usr/lib/nmap/nmap --privileged -sC -p 8000 -oN Task-03/nmap-script-scan.txt 127.0.0.1
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000078s latency).
+
+PORT     STATE SERVICE
+8000/tcp open  http-alt
+|_http-title: Directory listing for /
+
+# Nmap done at Sat Sep 26 11:02:45 2026 -- 1 IP address (1 host up) scanned in 1.67 seconds
